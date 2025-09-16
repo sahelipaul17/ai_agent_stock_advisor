@@ -1,0 +1,19 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+
+# Data & ML
+pandas==2.2.3
+numpy==2.1.2
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Market data & indicators
+yfinance==0.2.44
+ta==0.11.0
+
+# Gemini client (OpenAI-compatible wrapper)
+openai
+
+# Google Generative AI (native client, optional if using only openai wrapper)
+google-generativeai==0.8.3
